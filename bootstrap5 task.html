@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>technosound computers-an intelligent choice.</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+ <style>
+  /* #nav{
+    position: fixed;
+    top: 0;
+  } */
+  html{
+    scroll-behavior: smooth;
+  }
+  /* #navbar{
+    position: fixed;
+    top: 0;
+  } */
+ </style>
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbar">
+        <div class="container-fluid">
+            <nav class="navbar bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="data:image/png;base64,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" alt="" width="31" height="25">
+                  </a>
+                </div>
+              </nav>
+          <a class="navbar-brand" href="#">technosound</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" id="top">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#products" aria-current="page">Products</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" aria-current="page">Contact</a>
+              </li>
+            </ul>
+           <a href="login page.html"><button type="button" target= "_self" class="btn btn-dark">login</button>
+           </a> 
+           <a href="bootstrap5 form.html" target="_self"><button type="button" target= "_self" class="btn btn-dark ms-3">Inquiry</button></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUnkMiqmbzq1kWUapvvp19z25B6stCKkMudg&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs01z8LArAfyiEbeuSnbSo_RMPiAJtvb14YQ&usqp=CAU" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      <br>
+
+      <!-- home section -->
+      <h1>
+        <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" id="home">
+           <h1 class="float-end"> Welcome to <strong>Technosound computers.</strong>
+          </button></h1>
+        </h1>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px;">
+           <h4> The best place to buy your dream systems.</h4>
+          </div>
+        </div>
+      </div>
+
+          <div class="alert alert-dark" role="alert" id="about">
+            <h1 style="text-align: center; font-size:35px">About</h1>
+          </div>
+          <br><br>
+
+          <!-- about section -->
+      <div class="about-section"  >
+        <div class="alert alert-success bg-dark" role="alert">
+            <h4 class="alert-heading" style="font-size: 35px; color:white;text-align: center;">About <strong>Technosound Computers.</strong></h4>
+            <p><div class="alert alert-success bg-dark" role="alert">
+  <!-- <h4 class="alert-heading">Well done!</h4> -->
+  <p style="text-align: justify;font-size: 25px;color: white;">Technosound Computers Inc. is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States. Technosound Computers is the largest technology company by revenue (totaling US$365.8 billion in 2021) and as of June 2022, it is the world's biggest company by market capitalization, the fourth-largest personal computer vendor by unit sales and second-largest mobile phone manufacturer. It is one of the Big Five American information technology companies, alongside Alphabet, Amazon, Meta, and Microsoft.</p>
+
+   <p style="text-align: justify;font-size: 25px;color: white;" >Technosound Computers was founded as Technosound Computers Computer Company on April 1, 1976, by Steve Jobs, Steve Wozniak and Ronald Wayne to develop and sell Wozniak's Technosound Computers I personal computer. It was incorporated by Jobs and Wozniak as Technosound Computers Computer, Inc. in 1977 and the company's next computer, the Technosound Computers II, became a best seller. Technosound Computers went public in 1980, to instant financial success. The company developed computers featuring innovative graphical user interfaces, including the original Macintosh, announced in a critically acclaimed advertisement, "1984", directed by Ridley Scott. By 1985, the high cost of its products and power struggles between executives caused problems. Wozniak stepped back from Technosound Computers amicably and pursued other ventures, while Jobs resigned bitterly and founded NeXT, taking some Technosound Computers employees with him. .</p>
+  <hr>
+          </div>
+
+      </div><br>
+
+      <!-- products -->
+
+      <div class="alert alert-dark" role="alert" id="products">
+        <h1 style="text-align: center; font-size:35px">Products</h1>
+      </div>
+      <br><br>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71vFKBpKakL._AC_UY218_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2020 Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Gold </h5>
+              <p class="card-text"> All-Day Battery Life – Go longer than ever with up to 18 hours of battery life.
+                Powerful Performance – Take on everything from professional-quality editing to action-packed gaming with ease. The Apple M1 chip with an 8-core CPU delivers up to 3.5x faster performance than the previous generation while using way less power. .</p>
+                <button type="button" class="btn btn-outline-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61TmHUs-T0S._AC_UY218_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dell 14 (2021) Ryzen 5-5500U, 8Gb, 512Gb Ssd, Windows 11 + Ms Office'21, AMD Vega Graphics, 14 Inches (35.56 Cms) Fhd Display, Titan Grey Color, Fpr + Backlit Kb (Vostro 5415, D552205Win9S) </h5>
+              <p class="card-text"> Processor: AMD Ryzen 5-5500U (2.10 GHz up to 4.00 GHz)
+                RAM & Storage: 8GB DDR4 & 512GB SSD
+                Software: Win 11 + Office H&S 2021
+                Display: 14.0" FHD WVA AG Narrow Border 250 nits, Backlit Keyboard + Finger Print Reader
+                Ports:HDMI 1.4b, (1) USB 3.2 Gen 1 Type-C (DP/PowerDelivery), (2) USB 3.2 Gen 1 Type A, Micro SD card reader, (1) </p>
+                <button type="button" class="btn btn-outline-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://m.media-amazon.com/images/I/71EjVxkxwNL._AC_UY218_.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Quiet Blue/1.8 kg), M1603QA-MB502WS </h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <button type="button" class="btn btn-outline-dark">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="https://m.media-amazon.com/images/I/71EjVxkxwNL._AC_UY218_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Quiet Blue/1.8 kg), M1603QA-MB502WS </h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <button type="button" class="btn btn-outline-dark">Buy</button>
+              </div>
+            </div>
+          </div>
+          <br>
+  <!-- contact section  -->
+      
+  <div class="alert alert-dark" role="alert" id="contact" style="clear: both;width: 100%;">
+    <h1 style="text-align: center; font-size:35px">Contact</h1>
+  </div>
+  <br><br>
+
+  <div class="card text-center" style="width: 100%">
+    <div class="card-header">
+      <ul class="nav nav-pills card-header-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contact Us</a>
+       
+      </ul>
+    </div>
+    <div class="card-body bg-dark" style="width: 100%;">
+      <h3 class="card-title" style="color: white;" >Omkar Shelke.</h3>
+      <p class="card-text" style="color: white;">Guruchaya colony,Near mukhbadhir vidyalaya, in front of datta mandir,Sainagar ,Amravati,Maharashtra -444607</p>
+      <p style="color: white;">Landline -0721-25-40-405</p>
+      <p style="color: white;">fax - 12345678910</p>
+      <p style="color: white;">Shop address : Satuna , In front of vyankatesh lawn, juna saturna ,Amravati, maharashtra.</p>
+      <p style="color: white;">Branches : Mumbai, Amravati, Nagpur, Nagar, Sambhajinagar..</p>
+      <a href="#" class="btn btn-primary" style="color: white;">linkedin</a>
+    </div>
+  </div>
+ 
+  <br>
+
+
+
+      <!-- footer section -->
+      <div class="footer-section" style="width: 100%">
+        <div class="card bg-light">
+            <div class="card-header" style="font-size: 30px;text-align: center;">
+              Technosound computers.
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p></p>
+                <footer class="blockquote-footer" style="font-size: 25px;text-align: center;">@all copyrights reserved.<cite title="Source Title"></cite></footer>
+              </blockquote>
+            </div>
+          </div>
+      </div>
+
+    
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
